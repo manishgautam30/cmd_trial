@@ -1,0 +1,12 @@
+public class cmd_trial
+  {
+    Run|Debug 
+    public static void main (final String [] args)
+      { 
+         Thread t = Thread.currentThread();
+         
+
+      
+ 
+      }  
+  }
