@@ -4,8 +4,10 @@ public class cmd_trial
     public static void main (final String [] args)
       { 
          Thread t = Thread.currentThread();
+         Scanner sc =  new Scanner(System.in);
+         String str = sc.nextline();
          
-
+          
       
  
       }  
