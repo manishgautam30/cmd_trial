@@ -6,11 +6,23 @@ public class cmd_trial
          Thread t = Thread.currentThread();
          Scanner sc =  new Scanner(System.in);
          String str = sc.nextline();
-         
-           for(int i=1;i<=100;i++){
-            
-          
-      }
- 
-      }  
-  }
+     
+   for(int i=1;i<=100;i++)
+     {
+  //try catch block in order to remove exceptions
+     try {
+       System.out.println(str);
+       System.out.println("loading"+i+"%");
+       Thread.sleep(1000);
+       new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitfor();
+       str=str+"!";
+     }
+     catch(Exception e){
+       e.printStackTrace();  
+       //tells the error occurred
+     }
+    
+    }
+  }  
+
+}
