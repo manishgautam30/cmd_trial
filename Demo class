@@ -7,8 +7,10 @@ public class cmd_trial
          Scanner sc =  new Scanner(System.in);
          String str = sc.nextline();
          
+           for(int i=1;i<=100;i++){
+            
           
-      
+      }
  
       }  
   }
